@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="emtzzz">
+    <meta name="keywords" lang="es" content="etiquetas, html, 2 paginas">
+    <meta name="description" lang="es"content="etiquetas basicas html">
+    <title>Pagina de Contacto</title>
+</head>
+<body>
+    <main>
+<img src="img/logo.png" alt="logo">
+<br>
+<img src="img/banner.jpg" width="800" height="300" alt="banner">
+<h1 id="Contacto">Contacto</h1>
+<nav>
+    <ul>
+<li id="Inicio"><a href="./1index.html" target="_blank">Inicio</a></li>
+<li id="Nosotros"><a href="#Nosotros" target="_blank">Nosotros</a></li>
+<li id="Cursos"><a href="#Cursos" target="_blank">Cursos</a></li>
+<li id="Contacto"><a href="#Contacto" target="_blank">Contacto</a></li>
+    </ul>
+</nav>
+<!--se coloco su respectivo banner con su menu de navegacion conectado con la pagina inicial-->
+
+<!--se coloco la imagen de contacto y Se creo el formulario con la informacion que necesitamos en nuestro negocio-->
+<div>
+<img src="img/contacto.jpg" width="800" height="300" alt="Imagen de contacto">
+<div class="Formulario">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" requiered minlength="2" maxlength="60" placeholder="Ingresa tu Nombre">
+</div>
+<br>
+<div class="Formulario">
+<label for="Email">Correo Electronico:</label>
+<input type="email" id="email" name="email" required placeholder="Tu correo electronico">
+</div>
+<br>
+<div class="Formulario">
+    <label for="Mensaje">Mensaje:</label>
+    <textarea name="Mensaje" id="Mensaje" requiered minlength="5" maxlength="1000" placeholder="Escribe tu mensaje aqui"></textarea>
+    </div> <br>
+<input type="submit" value="Enviar">
+</div> <br>
+    </main>
+    <footer>
+        <img src="img/logo.png" alt="logo">
+        <p>Nuestro blog de cafe, todos los derechos reservados</p>
+        <nav>
+            <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Nosotros">Nosotros</a></li>
+        <li><a href="#Anuncios">Anuncio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
